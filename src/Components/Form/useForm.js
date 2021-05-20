@@ -9,13 +9,13 @@ const useForm = (validateDetails,
     const [userRegistration, setUserRegistration] = useState(
         {
             id: "",
-            phone: "9922040096",
-            fname: "Ratnesh",
-            lname: "Mether",
-            dob: "1996-10-14",
-            occupation: "Writer",
-            email: "metherratnesh@gmail.com",
-            designation: "Developer",
+            phone: "",
+            fname: "",
+            lname: "",
+            dob: "",
+            occupation: "",
+            email: "",
+            designation: "",
             isFavourite: false
         }
     );
