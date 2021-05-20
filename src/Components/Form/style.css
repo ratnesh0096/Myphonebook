@@ -1,0 +1,43 @@
+.userForm{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+p{
+    color: red;
+}
+
+label{
+    font-family: "Lucida Console", "Courier New", monospace;
+    color: rgb(24, 24, 58);
+}
+.formInput{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+.invalid{
+    border: 1px solid rgb(238, 14, 14); 
+}
+
+.submitContact{
+    background-color: #f53b69;
+    border: none;
+    color: white;
+    width: 400px;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+}
